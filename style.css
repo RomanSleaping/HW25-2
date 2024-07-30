@@ -1,0 +1,33 @@
+.child {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  position: relative;
+  background-color: crimson;
+  top: 50px;
+  right: 50px;
+}
+.blue {
+  position: relative;
+  z-index: 2;
+  background-color: darkblue;
+}
+.green {
+  position: relative;
+  background-color: forestgreen;
+  bottom: 50px;
+  left: 50px;
+}
+.father {
+  position: absolute;
+  left: 30%;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
